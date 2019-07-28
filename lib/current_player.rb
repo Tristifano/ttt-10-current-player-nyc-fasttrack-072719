@@ -2,7 +2,7 @@
 def turn_count(board)
   counter = 0
   for position in board
-    if position == "O" || "X"
+    if position == "O" || position == "X"
       counter += 1 
     else 
       counter += 0
