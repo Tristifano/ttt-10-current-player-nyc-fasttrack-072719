@@ -14,6 +14,6 @@ end
 def current_player(board)
   player = ""
   turns = turn_count(board)
-  turns == 0 || turns.odd? ? player = "X" : player = "O"
+  turns == 0 || turns.even? ? player = "X" : player = "O"
   return player
 end
